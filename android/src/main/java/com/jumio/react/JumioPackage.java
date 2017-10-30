@@ -12,7 +12,7 @@ import com.facebook.react.uimanager.ViewManager;
 import java.util.*;
 
 public class JumioPackage implements ReactPackage {
-    @Override
+
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
