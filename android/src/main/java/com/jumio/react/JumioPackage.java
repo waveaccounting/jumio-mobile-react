@@ -12,11 +12,6 @@ import com.facebook.react.uimanager.ViewManager;
 import java.util.*;
 
 public class JumioPackage implements ReactPackage {
-
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-        return Collections.emptyList();
-    }
-
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Collections.emptyList();
@@ -30,10 +25,5 @@ public class JumioPackage implements ReactPackage {
         modules.add(new JumioModuleBamCheckout(reactContext));
         modules.add(new JumioModuleDocumentVerification(reactContext));
         return modules;
-    }
-
-    public static void onRequestPermissionsResult(ReactContext reactContext, int requestCode, String[] permissions,
-            int[] grantResults) {
-        JumioModule.onRequestPermissionsResult(reactContext, requestCode, permissions, grantResults);
     }
 }
