@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.version        = package['version']
   s.summary        = 'React Native Jumio SDK wrapper'
   s.license        = package['license']
-  s.author         = 'Wave Accounting Inc.'
+  s.author         = 'Wave Financial Inc.'
   s.homepage       = 'https://github.com/waveaccounting/jumio-mobile-react'
   s.source         = { git: 'https://github.com/waveaccounting/jumio-mobile-react' }
 
