@@ -1,3 +1,5 @@
+# ⚠️ NOTICE: This repository has been deprecated.
+
 # Plugin for React Native
 
 Official Jumio Mobile SDK plugin for React Native
